@@ -13,35 +13,27 @@ namespace DecisionMaking {
             Orderlist.Add("Membership");
             Orderlist.Add("Upgrade_to_membership");
             Orderlist.Add("Learning_to_Sk");
-           
-         
+            
          /* check the  condition */
          if (payment == Orderlist[0]) {
-            
             Console.WriteLine("generate a packing slip for shipping.");
          } 
          else if (payment == Orderlist[1]) {
-           
             Console.WriteLine("create a duplicate packing slip for the royalty department.");
          } 
          else if (payment == Orderlist[2]) {
-          
             Console.WriteLine("activate that membership.");
          } 
           else if (payment == Orderlist[3]) {
-          
             Console.WriteLine("apply the upgrade..");
          } 
           else if (payment == Orderlist[2] || payment == Orderlist[3] ) {
-          
             Console.WriteLine("e-mail the owner and inform them of the activation/upgrade.p.");
          } 
           else if (payment == Orderlist[4}) {
-          
             Console.WriteLine("add a free “First Aid” video to the packing slip (the result of a court decision in 1997)..");
          } 
           else if (payment == Orderlist[0] || payment == Orderlist[1] ) {
-          
             Console.WriteLine("generate a commission payment to the agent.");
          } 
          else 
